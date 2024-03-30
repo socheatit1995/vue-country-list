@@ -35,7 +35,7 @@
                   <td>{{ country.cca3 }}</td>
                   <td>{{ getnativeName(country.name.nativeName) }}</td>
                   <td>{{ country.altSpellings.join(', ') }}</td>
-                  <td>{{ country.idd.root }}</td>
+                  <td>{{ country.idd.root }} {{ country.idd.suffixes }}</td>
                 </tr>
               </tbody>
             </table>
