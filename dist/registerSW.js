@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/vue-hybrid-app/sw.js', { scope: '/vue-hybrid-app/' })})}

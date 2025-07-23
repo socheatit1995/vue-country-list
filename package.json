@@ -1,6 +1,6 @@
 {
-  "name": "vue-country-list",
-  "version": "0.0.0",
+  "name": "vue-hybrid-app",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,13 +11,15 @@
     "deploy": "node gh-pages-deploy.js"
   },
   "dependencies": {
-    "axios": "^1.6.8",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-router": "^4.2.5",
+    "pinia": "^2.1.7"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.1.6",
+    "vite-plugin-pwa": "^0.17.5",
     "execa": "^8.0.1",
-    "gh-pages": "^6.1.1",
-    "vite": "^5.1.6"
+    "gh-pages": "^6.1.1"
   }
 }
